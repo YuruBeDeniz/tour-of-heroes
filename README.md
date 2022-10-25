@@ -1,4 +1,5 @@
-# AngularTourOfHeroes
+# 1. The hero editor
+## AngularTourOfHeroes
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.6.
 
@@ -79,3 +80,10 @@ src/app/app.component.html
 <h1>{{title}}</h1>
 <app-heroes></app-heroes>
 
+# 5. Add navigation with routing
+Add the AppRoutingModule
+
+ng generate module app-routing --flat --module=app
+
+--flat	Puts the file in src/app instead of its own directory.
+--module=app	Tells ng generate to register it in the imports array of the AppModule.
